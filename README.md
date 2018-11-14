@@ -1,1 +1,1 @@
-"# Castlemania" 
+"Castlemania - Mobile game project" 
