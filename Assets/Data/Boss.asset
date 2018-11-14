@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd74bbacdbce0114fa5f0dd820329f7a, type: 3}
+  m_Name: Boss
+  m_EditorClassIdentifier: 
+  enemyPrefabs: []
+  waveStart: 4
+  waveEnd: 25
+  waveLoop: 30
+  spawns:
+  - spawnTime: 4
+    enemyToSpawn: 0
+    lane: 0
+  - spawnTime: 4.2
+    enemyToSpawn: 0
+    lane: 0
+  - spawnTime: 4.3
+    enemyToSpawn: 0
+    lane: 0
+  - spawnTime: 5.9
+    enemyToSpawn: 2
+    lane: 0
+  - spawnTime: 6
+    enemyToSpawn: 2
+    lane: 0
+  - spawnTime: 6
+    enemyToSpawn: 1
+    lane: 0
+  - spawnTime: 6
+    enemyToSpawn: 1
+    lane: 0
+  - spawnTime: 7.2
+    enemyToSpawn: 0
+    lane: 0
+  - spawnTime: 8
+    enemyToSpawn: 2
+    lane: 0
+  - spawnTime: 8.8
+    enemyToSpawn: 1
+    lane: 0
+  - spawnTime: 10
+    enemyToSpawn: 2
+    lane: 0
+  - spawnTime: 10.5
+    enemyToSpawn: 0
+    lane: 0
+  - spawnTime: 10.9
+    enemyToSpawn: 0
+    lane: 0
+  - spawnTime: 11.2
+    enemyToSpawn: 0
+    lane: 0
+  - spawnTime: 12
+    enemyToSpawn: 2
+    lane: 0
+  - spawnTime: 12.4
+    enemyToSpawn: 2
+    lane: 0
+  - spawnTime: 13
+    enemyToSpawn: 1
+    lane: 0
+  - spawnTime: 14.7
+    enemyToSpawn: 1
+    lane: 0
+  - spawnTime: 15.8
+    enemyToSpawn: 0
+    lane: 0
+  - spawnTime: 17.3
+    enemyToSpawn: 0
+    lane: 0
+  - spawnTime: 18.9
+    enemyToSpawn: 0
+    lane: 0
+  - spawnTime: 20
+    enemyToSpawn: 2
+    lane: 0
+  - spawnTime: 20.8
+    enemyToSpawn: 1
+    lane: 0
+  - spawnTime: 21.5
+    enemyToSpawn: 0
+    lane: 0
+  - spawnTime: 23.2
+    enemyToSpawn: 2
+    lane: 0
+  - spawnTime: 24.7
+    enemyToSpawn: 1
+    lane: 0
+  - spawnTime: 24.8
+    enemyToSpawn: 2
+    lane: 0
+  - spawnTime: 24.9
+    enemyToSpawn: 0
+    lane: 0
+  - spawnTime: 24.9
+    enemyToSpawn: 0
+    lane: 0
+  - spawnTime: 25
+    enemyToSpawn: 1
+    lane: 0
+  currentSpawn: 0

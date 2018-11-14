@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd74bbacdbce0114fa5f0dd820329f7a, type: 3}
+  m_Name: Infantry-Range2
+  m_EditorClassIdentifier: 
+  enemyPrefabs: []
+  waveStart: 4
+  waveEnd: 18
+  waveLoop: 20
+  spawns:
+  - spawnTime: 4
+    enemyToSpawn: 2
+    lane: 0
+  - spawnTime: 4.9
+    enemyToSpawn: 0
+    lane: 0
+  - spawnTime: 5.8
+    enemyToSpawn: 0
+    lane: 0
+  - spawnTime: 7
+    enemyToSpawn: 2
+    lane: 0
+  - spawnTime: 8.5
+    enemyToSpawn: 2
+    lane: 0
+  - spawnTime: 8.8
+    enemyToSpawn: 2
+    lane: 0
+  - spawnTime: 9.1
+    enemyToSpawn: 0
+    lane: 0
+  - spawnTime: 10.3
+    enemyToSpawn: 2
+    lane: 0
+  - spawnTime: 12
+    enemyToSpawn: 0
+    lane: 0
+  - spawnTime: 12.4
+    enemyToSpawn: 0
+    lane: 0
+  - spawnTime: 14
+    enemyToSpawn: 0
+    lane: 0
+  - spawnTime: 14.1
+    enemyToSpawn: 2
+    lane: 0
+  - spawnTime: 14.3
+    enemyToSpawn: 2
+    lane: 0
+  - spawnTime: 15.7
+    enemyToSpawn: 2
+    lane: 0
+  - spawnTime: 17
+    enemyToSpawn: 0
+    lane: 0
+  - spawnTime: 17.3
+    enemyToSpawn: 0
+    lane: 0
+  currentSpawn: 0

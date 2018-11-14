@@ -1,0 +1,254 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd74bbacdbce0114fa5f0dd820329f7a, type: 3}
+  m_Name: Wave13
+  m_EditorClassIdentifier: 
+  enemyPrefabs:
+  - {fileID: 1432148240506024, guid: 0cf399d2f98a53546b6a72ba5ccd9f90, type: 2}
+  - {fileID: 1185460884851044, guid: 9fbd2472a168113419543c1b322cf2b3, type: 2}
+  - {fileID: 1887497779491812, guid: b737145697cc8a349a5b54f7684754a3, type: 2}
+  AutoSpawn: 1
+  NumOfInfantry: 34
+  NumOfRange: 17
+  NumOfFlying: 6
+  waveStart: 0
+  waveEnd: 27
+  waveLoop: 25
+  spawns:
+  - spawnTime: 0.6167352
+    enemyToSpawn: 1
+    lane: 0
+  - spawnTime: 1.0845721
+    enemyToSpawn: 1
+    lane: 0
+  - spawnTime: 1.7138839
+    enemyToSpawn: 1
+    lane: 0
+  - spawnTime: 2.016306
+    enemyToSpawn: 1
+    lane: 0
+  - spawnTime: 2.1199017
+    enemyToSpawn: 1
+    lane: 0
+  - spawnTime: 2.6723595
+    enemyToSpawn: 1
+    lane: 0
+  - spawnTime: 2.741489
+    enemyToSpawn: 1
+    lane: 0
+  - spawnTime: 3.16464
+    enemyToSpawn: 1
+    lane: 0
+  - spawnTime: 3.5656066
+    enemyToSpawn: 1
+    lane: 0
+  - spawnTime: 4.0516257
+    enemyToSpawn: 1
+    lane: 0
+  - spawnTime: 4.594058
+    enemyToSpawn: 1
+    lane: 0
+  - spawnTime: 4.8131943
+    enemyToSpawn: 0
+    lane: 0
+  - spawnTime: 4.907319
+    enemyToSpawn: 0
+    lane: 0
+  - spawnTime: 4.922968
+    enemyToSpawn: 0
+    lane: 0
+  - spawnTime: 5.098015
+    enemyToSpawn: 0
+    lane: 0
+  - spawnTime: 5.1070185
+    enemyToSpawn: 0
+    lane: 0
+  - spawnTime: 6.1722965
+    enemyToSpawn: 0
+    lane: 0
+  - spawnTime: 6.3632474
+    enemyToSpawn: 0
+    lane: 0
+  - spawnTime: 6.8513794
+    enemyToSpawn: 0
+    lane: 0
+  - spawnTime: 7.843198
+    enemyToSpawn: 0
+    lane: 0
+  - spawnTime: 8.269037
+    enemyToSpawn: 0
+    lane: 0
+  - spawnTime: 8.482788
+    enemyToSpawn: 0
+    lane: 0
+  - spawnTime: 8.564316
+    enemyToSpawn: 0
+    lane: 0
+  - spawnTime: 8.809386
+    enemyToSpawn: 0
+    lane: 0
+  - spawnTime: 9.266474
+    enemyToSpawn: 0
+    lane: 0
+  - spawnTime: 9.278231
+    enemyToSpawn: 0
+    lane: 0
+  - spawnTime: 10.399617
+    enemyToSpawn: 0
+    lane: 0
+  - spawnTime: 10.765312
+    enemyToSpawn: 0
+    lane: 0
+  - spawnTime: 10.971067
+    enemyToSpawn: 0
+    lane: 0
+  - spawnTime: 11.294029
+    enemyToSpawn: 0
+    lane: 0
+  - spawnTime: 11.625881
+    enemyToSpawn: 0
+    lane: 0
+  - spawnTime: 11.83659
+    enemyToSpawn: 0
+    lane: 0
+  - spawnTime: 11.881034
+    enemyToSpawn: 0
+    lane: 0
+  - spawnTime: 11.917372
+    enemyToSpawn: 0
+    lane: 0
+  - spawnTime: 12.2967615
+    enemyToSpawn: 0
+    lane: 0
+  - spawnTime: 12.788783
+    enemyToSpawn: 0
+    lane: 0
+  - spawnTime: 13.588153
+    enemyToSpawn: 0
+    lane: 0
+  - spawnTime: 13.630907
+    enemyToSpawn: 0
+    lane: 0
+  - spawnTime: 14.301057
+    enemyToSpawn: 0
+    lane: 0
+  - spawnTime: 14.381738
+    enemyToSpawn: 0
+    lane: 0
+  - spawnTime: 14.562182
+    enemyToSpawn: 0
+    lane: 0
+  - spawnTime: 15.329618
+    enemyToSpawn: 0
+    lane: 0
+  - spawnTime: 15.361984
+    enemyToSpawn: 0
+    lane: 0
+  - spawnTime: 15.436832
+    enemyToSpawn: 0
+    lane: 0
+  - spawnTime: 16.154224
+    enemyToSpawn: 0
+    lane: 0
+  - spawnTime: 16.382881
+    enemyToSpawn: 0
+    lane: 0
+  - spawnTime: 16.402483
+    enemyToSpawn: 0
+    lane: 0
+  - spawnTime: 17.345428
+    enemyToSpawn: 0
+    lane: 0
+  - spawnTime: 17.502028
+    enemyToSpawn: 0
+    lane: 0
+  - spawnTime: 17.731514
+    enemyToSpawn: 0
+    lane: 0
+  - spawnTime: 17.819155
+    enemyToSpawn: 0
+    lane: 0
+  - spawnTime: 18.127861
+    enemyToSpawn: 0
+    lane: 0
+  - spawnTime: 18.147373
+    enemyToSpawn: 0
+    lane: 0
+  - spawnTime: 18.434137
+    enemyToSpawn: 0
+    lane: 0
+  - spawnTime: 18.52745
+    enemyToSpawn: 0
+    lane: 0
+  - spawnTime: 19.109703
+    enemyToSpawn: 0
+    lane: 0
+  - spawnTime: 19.226059
+    enemyToSpawn: 2
+    lane: 0
+  - spawnTime: 19.531012
+    enemyToSpawn: 2
+    lane: 0
+  - spawnTime: 20.248451
+    enemyToSpawn: 2
+    lane: 0
+  - spawnTime: 20.870764
+    enemyToSpawn: 2
+    lane: 0
+  - spawnTime: 21.521902
+    enemyToSpawn: 2
+    lane: 0
+  - spawnTime: 21.624178
+    enemyToSpawn: 2
+    lane: 0
+  - spawnTime: 21.725452
+    enemyToSpawn: 2
+    lane: 0
+  - spawnTime: 21.89915
+    enemyToSpawn: 2
+    lane: 0
+  - spawnTime: 21.97189
+    enemyToSpawn: 2
+    lane: 0
+  - spawnTime: 22.019464
+    enemyToSpawn: 2
+    lane: 0
+  - spawnTime: 22.737679
+    enemyToSpawn: 2
+    lane: 0
+  - spawnTime: 22.900131
+    enemyToSpawn: 2
+    lane: 0
+  - spawnTime: 23.07218
+    enemyToSpawn: 2
+    lane: 0
+  - spawnTime: 23.391396
+    enemyToSpawn: 2
+    lane: 0
+  - spawnTime: 23.775118
+    enemyToSpawn: 2
+    lane: 0
+  - spawnTime: 24.210608
+    enemyToSpawn: 2
+    lane: 0
+  - spawnTime: 24.232578
+    enemyToSpawn: 2
+    lane: 0
+  - spawnTime: 24.65736
+    enemyToSpawn: 2
+    lane: 0
+  - spawnTime: 24.856255
+    enemyToSpawn: 2
+    lane: 0
+  - spawnTime: 24.930752
+    enemyToSpawn: 2
+    lane: 0
+  currentSpawn: 0
